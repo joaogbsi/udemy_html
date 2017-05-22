@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	        <title>Curso Complento de dDesenvolvedor Web</title>
+	        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> 
+	</head>
+	<body>
+
+		<form method="POST" action="">
+			<div class="from-group">
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+			</div>
+			<div class="from-group">
+				<label for="email">E-mail</label>
+				<input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com,br" required>
+			</div>
+			<div class="from-group">
+				<label for="nascimento">Nascimento</label>
+				<input type="date" name="nascimento" id="nascimento" class="form-control" required min="1960-01-01">
+			</div>
+			<div class="from-group">
+				<label>Sexo</label>
+				<input type="radio" name="sexo" id="masculino" >
+				<label for="masculino">Masculino</label>
+				<input type="radio" name="sexo" id="feminino" >
+				<label for="feminino">Feminino</label>
+
+			</div>
+
+			<div class="from-group">
+				<label for="li">Li e concordo</label>
+				<input type="checkbox" name="li" id="li" >
+			</div>			
+
+			<div>
+				<button type="submit" class="btn btn-primary"> Cadastrar</button>
+			</div>
+		</form>
+
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
