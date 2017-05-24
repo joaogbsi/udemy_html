@@ -9,6 +9,8 @@ header{
 	width:  100%;
 	height: 150px;
 	background-color: #5E299A;
+	z-index: 2;
+	position: relative;
 }
 
 header .container{
@@ -108,7 +110,7 @@ header #logotipo{
 }
 
 #menu {
-   	margin: 26px 0px;
+   	margin: 20px 0px;
 }
 
 #menu li{
@@ -116,10 +118,49 @@ header #logotipo{
 	font-family: "OpenSans"
 }
 
+#menu li.search{
+	width: 182px;
+}
+
+#menu li.search input{
+	background-color: #5c2d90;
+	color: #fff;
+	border: none;
+	height: 30px
+	line-height: 30px;	
+}
+
+#menu li.search input::-webkit-input-placeholder{
+	color: #fff;
+}
+
+#menu li.search button{
+	background: none;
+	border: none;
+}
+
+#menu li.search button i{
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+	position: absolute;
+	right: 3px;
+	top: -1px
+}
+
 #menu li a{
 	color: #fff;
 	font-size: 16px;
 	padding: 10px 25px
+}
 
+#menu li.search .input-group{
+	top: 8px;
+}
 
+#banner{
+	width: 100%;
+	height: 728px;
+	background: url("../img/banner.jpg") no-repeat;
+	position: relative;
+	top: -110px;
 }

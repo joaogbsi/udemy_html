@@ -5,6 +5,7 @@
 		<title>Orlando City</title>
 
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/orlando.css">
 	</head>
 	<body>
@@ -50,15 +51,24 @@
 							<li><a href="#">Ticket</a></li>
 							<li><a href="#">News</a></li>
 							<li><a href="#">Schedule</a></li>
-							<li>
-								<input type="search" placeholder="search...">
+							<li class="search">
+								<div class="input-group">
+									<input type="search"  placeholder="Search...">
+							    	<span class="input-group-btn">
+							        	<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+							      	</span>
+							    </div><!-- /input-group -->
 							</li>
 						</ul>
 					</nav>
-				</div>
-			</div>
+				</div>  <!-- /row -->
+			</div>  <!-- /container -->
 			
 		</header>
+
+		<section>
+			<div id="banner"></div>
+		</section>
 
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
